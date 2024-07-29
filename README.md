@@ -14,3 +14,13 @@
 - npm i
 - Add API key to .env
 - npm run dev
+
+
+
+### TODO
+
+- Create problem generator function
+- Add button to code editor to 'Check Code', which sends a message in the chat like
+user: Check this code: {code}
+
+The UI only shows {code} but the message sent includes the actual code, try to keep actual code out of chat so its cleaner
