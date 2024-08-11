@@ -106,7 +106,6 @@ export default function QuestionSettings({ onSettingsChange }: QuestionSettingsP
               placeholder='Type your custom problem request here..'
               value={settings.customPrompt}
               onChange={(e) => handleSettingChange('customPrompt', e.target.value)}
-              className='h-full'
             />
           </TabsContent>
         </CardContent>

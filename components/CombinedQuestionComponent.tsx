@@ -110,7 +110,11 @@ export default function CombinedQuestionComponent() {
     try {
       let prompt;
       if (settings.isCustom) {
-        prompt = settings.customPrompt;
+        prompt = `Your task is to provide a leetcode style problem for the user to solve.  Do not ever include the solution in your output.
+          We will provide you with the users request for a problem, and you are to give them a relevant leetcode style problem based on what they want.
+          Again, do not for any reason provide the solution.  Your response should only be a problem.  Do not try to have a conversation with user either.
+          Just output a problem based on what they say.  
+          This is the users prompt: ${settings.customPrompt} `;
       } else {
         prompt = `Generate a Leetcode style coding problem like those from Leetcode 75. Here is the criteria:
           Difficulty: ${settings.difficulty || 'Any'}

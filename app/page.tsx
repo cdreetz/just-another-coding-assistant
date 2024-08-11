@@ -30,8 +30,8 @@ export default function Home() {
               <AlertDialogDescription>
                 <ol className="list-decimal list-inside space-y-2">
                   <li>Select the difficulty level, question type, and technique using the dropdowns on the left.</li>
-                  <li>Alternatively, switch to the "Custom" tab to enter your own prompt for a coding question.</li>
-                  <li>Click the "Generate Question" button to create a new coding problem based on your selections.</li>
+                  <li>Alternatively, switch to the `Custom` tab to enter your own prompt for a coding question.</li>
+                  <li>Click the `Generate Question` button to create a new coding problem based on your selections.</li>
                   <li>The generated question will appear on the right side of the screen.</li>
                   <li>Use the code editor below to work on your solution.</li>
                   <li>You can ask for help or submit your code for review using the chat interface.</li>
